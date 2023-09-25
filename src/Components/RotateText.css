@@ -1,0 +1,48 @@
+
+.circle {
+    position: absolute;
+    width: 10rem;
+    top:-5rem;
+    left:-13%;
+    padding-bottom: 100%;
+    overflow: hidden;
+    z-index: 10;
+  }
+  
+  
+  .circle text {
+    font-family: var(--primary-font);
+    font-size: 11px;
+    font-weight: 400;
+  }
+  
+  .circle svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 23rem;
+    height: 23rem;
+    animation-name: rotate;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(360deg);
+    }
+    to {
+      transform: rotate(0);
+    }
+  }
+.icon{
+    animation-name: nai!important;
+    width:3rem!important;
+}
+
+
+
+
+
+

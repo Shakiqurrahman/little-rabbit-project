@@ -1,0 +1,625 @@
+@media only screen and (max-width:1200px){
+    *{
+        max-width: 100%!important;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link{
+        font-size: 18px;
+        padding:16px 10px;
+    }
+    .icon-contact-wrapper{
+        margin-left:20px
+    }
+    .connect-wrapper a{
+        padding:6px 20px;
+    }
+    .header-left-part-wrapper, .header-image-benner{
+        padding:4.5rem 0;
+    }
+    .header-left-part-wrapper h2{
+        font-size: 52px;
+    }
+    .header-left-part-wrapper p{
+        font-size: 21px;
+    }
+    .mint-title h2, .connect-title-para h2, .about-details-wrapper h2, .owner-wrapper .owner-details h2{
+        font-size: 50px;
+    }
+    .mint-main-section-wrapper .mint-single-item-wrapper{
+        padding:34px 20px;
+    }
+    .mint-img{
+        margin-right:25px;
+    }
+    .mint-main-section-wrapper .mint-single-item-wrapper img{
+        width:8rem;
+    }
+    .mint-single-item-wrapper .mint-single-item-details h3{
+        font-size: 24px;
+    }
+    .mint-main-section-wrapper .mint-single-item-wrapper .mint-single-item-details p{
+        font-size: 16px;
+    }
+    .connect-title-para p{
+        font-size: 16px;
+    }
+    .about-details-wrapper .about-details, .owner-wrapper .owner-details p, .accordion-body{
+        font-size: 18px;
+    }
+    .leats-start-wrapper h2{
+        font-size: 75px;
+    }
+    .leats-start-btn a{
+        padding:16px 34px;
+    }
+    .footer .footer-top p{
+        font-size: 21px;
+    }
+}
+@media only screen and (min-width:767px) and (max-width:993px){
+    *{
+        max-width: 100%!important;
+    }
+    .navbar-toggler{
+        border-color:#ddd;
+    }
+    .navbar-toggler-icon{
+        background-image: url('./assets/navIcon.png')!important;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link{
+        font-size: 17px;
+        padding:14px 9px;
+    }
+    .icon-contact-wrapper{
+        display: none!important;
+    }
+    .connect-wrapper a{
+        padding:6px 20px;
+    }
+    .header-left-part-wrapper, .header-image-benner{
+        padding:4.5rem 0;
+    }
+    .header-left-part-wrapper h2{
+        font-size: 46px;
+    }
+    .header-left-part-wrapper p{
+        font-size: 20px;
+    }
+    .mint-title h2, .connect-title-para h2, .about-details-wrapper h2, .owner-wrapper .owner-details h2{
+        font-size: 40px;
+    }
+    .mint-main-section-wrapper .mint-single-item-wrapper{
+        padding:25px 17px;
+    }
+    .mint-img{
+        margin-right:20px;
+    }
+    .mint-main-section-wrapper .mint-single-item-wrapper img{
+        width:8rem;
+    }
+    .mint-single-item-wrapper .mint-single-item-details h3{
+        font-size: 20px!important;
+        margin-bottom:9px!important;
+    }
+    .mint-main-section-wrapper .mint-single-item-wrapper .mint-single-item-details p{
+        font-size: 16px;
+    }
+    .connect-title-para p{
+        font-size: 16px;
+    }
+    .about-details-wrapper .about-details, .owner-wrapper .owner-details p, .accordion-body{
+        font-size: 17px;
+    }
+    .swiper-slide{
+        padding:20px!important;
+    }
+    .swiper-backface-hidden .swiper-slide{
+        width:300px!important;
+    }
+    .swiper-button-next{
+        left: calc(50% - -11rem)!important;
+    }
+    .swiper-button-prev{
+        left: calc(50% - 9rem)!important;
+    }
+    .roadmap-cart-wrapper h3{
+        font-size: 27px;
+        margin-top:10px!important;
+        margin-bottom:18px!important;
+    }
+    .roadmap-cart-wrapper .roadmap-details{
+        font-size: 17px!important;
+    }
+    .roadmap-cart-wrapper .phase-item-wrapper .phase-single-item{
+        font-size: 16px!important;
+    }
+    .roadmap-cart-wrapper .phase-item-wrapper .phase-single-item svg{
+        font-size: 21px;
+    }
+    .accordion-item .accordion-button, .accordion-item .accordion-button.collapsed{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .leats-start-wrapper h2{
+        font-size: 65px;
+    }
+    .leats-start-btn a{
+        padding:14px 30px;
+    }
+    .footer .footer-top p{
+        font-size: 21px;
+    }
+    .tocenomics-details-wrapper .token-list .token-list-item{
+        margin-top:.7rem;
+    }
+}
+@media only screen and (min-width:576px) and (max-width:767px){
+    *{
+        max-width: 100%!important;
+    }
+    .navbar-toggler{
+        border-color:#ddd;
+    }
+    .navbar-toggler-icon{
+        background-image: url('./assets/navIcon.png')!important;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link{
+        font-size: 17px;
+        padding:14px 9px;
+    }
+    .icon-contact-wrapper{
+        display: none!important;
+    }
+    .connect-wrapper a{
+        padding:6px 20px;
+    }
+    .header-left-part-wrapper, .header-image-benner{
+        padding:4.5rem 0;
+        text-align: center;
+    }
+    .header-left-shape-1 {
+        width: 2.5rem;
+        top: 10%;
+        left: 35%;
+    }
+    .header-left-part-wrapper h2{
+        font-size: 46px;
+    }
+    .header-left-part-wrapper p{
+        font-size: 20px;
+    }
+    .mint-title h2, .connect-title-para h2, .about-details-wrapper h2, .owner-wrapper .owner-details h2{
+        font-size: 40px;
+    }
+    .mint-main-section-wrapper .mint-single-item-wrapper{
+        padding:25px 17px;
+    }
+    .mint-img{
+        margin-right:20px;
+    }
+    .mint-main-section-wrapper .mint-single-item-wrapper img{
+        width:8rem;
+    }
+    .mint-single-item-wrapper .mint-single-item-details h3{
+        font-size: 20px!important;
+        margin-bottom:9px!important;
+    }
+    .mint-main-section-wrapper .mint-single-item-wrapper .mint-single-item-details p{
+        font-size: 16px;
+    }
+    .powerd-by-item-wrapper .d-flex{
+        flex-direction: row; /* Switch to a horizontal layout on larger screens */
+    flex-wrap: wrap;
+    }
+    .powerd-by-single-item{
+        text-align: center;
+        margin-top:1rem;
+    }
+    .about-main-section{
+        padding-top:1.3rem;
+    }
+    .about-img, .owner-img{
+        text-align: center;
+    }
+    .about-img img, .owner-img img{
+        width:75%;
+    }
+    .owner-details{
+        text-align: center;
+    }
+    .ask-question-item-wrapper{
+        margin:0 2rem;
+        padding:1.5rem;
+    }
+    .leats-start-wrapper{
+        padding:5rem 0;
+    }
+    .connect-title-para p{
+        font-size: 16px;
+    }
+    .about-details-wrapper .about-details, .owner-wrapper .owner-details p, .accordion-body{
+        font-size: 17px;
+    }
+    .swiper-slide{
+        padding:20px!important;
+    }
+    .swiper-backface-hidden .swiper-slide{
+        width:300px!important;
+    }
+    .swiper-button-next{
+        left: calc(50% - -11rem)!important;
+    }
+    .swiper-button-prev{
+        left: calc(50% - 9rem)!important;
+    }
+    .roadmap-cart-wrapper h3{
+        font-size: 27px;
+        margin-top:10px!important;
+        margin-bottom:18px!important;
+    }
+    .roadmap-cart-wrapper .roadmap-details{
+        font-size: 17px!important;
+    }
+    .roadmap-cart-wrapper .phase-item-wrapper .phase-single-item{
+        font-size: 16px!important;
+    }
+    .roadmap-cart-wrapper .phase-item-wrapper .phase-single-item svg{
+        font-size: 21px;
+    }
+    .accordion-item .accordion-button, .accordion-item .accordion-button.collapsed{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .leats-start-wrapper h2{
+        font-size: 55px;
+    }
+    .leats-start-btn a{
+        padding:11px 22px;
+    }
+    .footer .footer-top p{
+        font-size: 20px;
+    }
+    .about-details-wrapper{
+        padding-left:1rem;
+        text-align: center;
+    }
+}
+@media only screen and (min-width:400px) and (max-width:576px){
+    *{
+        max-width: 100%!important;
+    }
+    .left-align {
+        justify-content: flex-start !important;
+        text-align: left !important;
+      }
+      
+    .navbar-toggler{
+        border-color:#ddd;
+    }
+    .navbar-toggler-icon{
+        background-image: url('./assets/navIcon.png')!important;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link{
+        font-size: 17px;
+        padding:14px 9px;
+    }
+    .icon-contact-wrapper{
+        display: none!important;
+    }
+    .connect-wrapper a{
+        padding:6px 20px;
+    }
+    .header-left-part-wrapper, .header-image-benner{
+        padding:4.5rem 0;
+        text-align: center;
+    }
+    .header-left-shape-1 {
+        width: 2.5rem;
+        top: 10%;
+        left: 35%;
+    }
+    .header-left-part-wrapper h2{
+        font-size: 40px;
+    }
+    .header-left-part-wrapper p{
+        font-size: 18px;
+    }
+    .shape-1 {
+        position: absolute;
+        top: 6%;
+        z-index: -1;
+        left: 8%;
+        width: 17rem;
+    }
+    .header-image-benner{
+        padding-bottom:0!important;
+    }
+    .mint-main-section-wrapper{
+        padding:0rem .8rem;
+    }
+    .mint-title h2, .connect-title-para h2, .about-details-wrapper h2, .owner-wrapper .owner-details h2{
+        font-size: 35px;
+    }
+    .mint-main-section-wrapper .mint-single-item-wrapper{
+        padding:25px 17px;
+    }
+    .mint-img{
+        margin-right:20px;
+    }
+    .mint-main-section-wrapper .mint-single-item-wrapper img{
+        width:8rem;
+    }
+    .mint-single-item-wrapper .mint-single-item-details h3{
+        font-size: 20px!important;
+        margin-bottom:9px!important;
+    }
+    .mint-main-section-wrapper .mint-single-item-wrapper .mint-single-item-details p{
+        font-size: 16px;
+    }
+    .powerd-by-item-wrapper .d-flex{
+        flex-direction: row; /* Switch to a horizontal layout on larger screens */
+    flex-wrap: wrap;
+    }
+    .powerd-by-single-item{
+        text-align: center;
+        margin-top:1rem;
+    }
+    .about-main-section{
+        padding-top:1.3rem;
+    }
+    .about-details-wrapper{
+        padding-left:1rem;
+        text-align: center;
+    }
+    .about-img, .owner-img{
+        text-align: center;
+    }
+    .about-img img, .owner-img img{
+        width:75%;
+    }
+    .owner-details{
+        text-align: center;
+    }
+    .ask-question-item-wrapper{
+        margin:0 0rem;
+        padding:1rem;
+    }
+    .leats-start-wrapper{
+        padding:5rem 0;
+    }
+    .connect-title-para p{
+        font-size: 16px;
+    }
+    .about-details-wrapper .about-details, .owner-wrapper .owner-details p, .accordion-body{
+        font-size: 17px;
+    }
+    .swiper-slide{
+        padding:20px!important;
+        
+    }
+    .swiper-backface-hidden .swiper-slide{
+        width:380px!important;
+    }
+    .swiper-button-next{
+        left: calc(50% - -9rem)!important;
+    }
+    .swiper-button-prev{
+        left: calc(50% - 11rem)!important;
+    }
+    /* .swiper-wrapper{
+        margin-left: -6rem;
+    } */
+    .roadmap-cart-wrapper h3{
+        font-size: 27px;
+        margin-top:10px!important;
+        margin-bottom:18px!important;
+    }
+    .roadmap-cart-wrapper .roadmap-details{
+        font-size: 17px!important;
+    }
+    .roadmap-cart-wrapper .phase-item-wrapper .phase-single-item{
+        font-size: 16px!important;
+    }
+    .roadmap-cart-wrapper .phase-item-wrapper .phase-single-item svg{
+        font-size: 21px;
+    }
+    .accordion-item .accordion-button, .accordion-item .accordion-button.collapsed{
+        font-size: 17px;
+        font-weight: 600;
+    }
+    .leats-start-wrapper h2{
+        font-size: 55px;
+    }
+    .leats-start-btn a{
+        padding:11px 22px;
+    }
+    .footer .footer-top p{
+        font-size: 20px;
+    }
+    .leats-start-shape-wrapper .leats-start-shape-3, .leats-start-shape-wrapper .leats-start-shape-1 {
+        top:10%;
+    }
+    .leats-start-shape-wrapper .leats-start-shape-2 {
+        left: 9%;
+    }
+    .leats-start-shape-wrapper .leats-start-shape-4 {
+        right: 9%;
+    }
+}
+@media only screen and  (max-width:400px){
+    *{
+        max-width: 100%!important;
+    }
+    .left-align {
+        justify-content: flex-start !important;
+        text-align: left !important;
+      }
+      
+    .navbar-toggler{
+        border-color:#ddd;
+    }
+    .navbar-toggler-icon{
+        background-image: url('./assets/navIcon.png')!important;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link{
+        font-size: 17px;
+        padding:14px 9px;
+    }
+    .icon-contact-wrapper{
+        display: none!important;
+    }
+    .connect-wrapper a{
+        padding:6px 20px;
+    }
+    .header-left-part-wrapper, .header-image-benner{
+        padding:4.5rem 0;
+        text-align: center;
+    }
+    .header-left-shape-1 {
+        width: 2.5rem;
+        top: 13%;
+        left: 35%;
+    }
+    .header-left-shape-4 {
+        right: 2%;
+    }
+    .header-left-part-wrapper h2{
+        font-size: 40px;
+    }
+    .header-left-part-wrapper p{
+        font-size: 18px;
+    }
+    .shape-1 {
+        position: absolute;
+        top: 6%;
+        z-index: -1;
+        left: 8%;
+        width: 17rem;
+    }
+    .header-image-benner{
+        padding-bottom:0!important;
+    }
+    .mint-main-section-wrapper{
+        padding:0rem;
+    }
+    .mint-main-section-wrapper .row{
+        margin:0;
+    }
+    .mint-title h2, .connect-title-para h2, .about-details-wrapper h2, .owner-wrapper .owner-details h2{
+        font-size: 30px;
+    }
+    .mint-main-section-wrapper .mint-single-item-wrapper{
+        padding:25px 17px;
+    }
+    .mint-img{
+        margin-right:20px;
+    }
+    .mint-main-section-wrapper .mint-single-item-wrapper img{
+        width:8rem;
+    }
+    .mint-single-item-wrapper .mint-single-item-details h3{
+        font-size: 20px!important;
+        margin-bottom:9px!important;
+    }
+    .mint-main-section-wrapper .mint-single-item-wrapper .mint-single-item-details p{
+        font-size: 16px;
+    }
+    .powerd-by-item-wrapper .d-flex{
+        flex-direction: row; /* Switch to a horizontal layout on larger screens */
+    flex-wrap: wrap;
+    }
+    .powerd-by-single-item{
+        text-align: center;
+        margin-top:1rem;
+    }
+    .about-main-section{
+        padding-top:1.3rem;
+    }
+    .about-details-wrapper{
+        padding-left:1rem;
+        text-align: center;
+    }
+    .about-img, .owner-img{
+        text-align: center;
+    }
+    .about-img img, .owner-img img{
+        width:75%;
+    }
+    .owner-details{
+        text-align: center;
+    }
+    .ask-question-item-wrapper{
+        margin:0 0rem;
+        padding:1rem;
+    }
+    .leats-start-wrapper{
+        padding:5rem 0;
+    }
+    .connect-title-para p{
+        font-size: 16px;
+    }
+    .about-details-wrapper .about-details, .owner-wrapper .owner-details p, .accordion-body{
+        font-size: 17px;
+    }
+    .swiper-slide{
+        padding:20px!important;
+        
+    }
+    .swiper-backface-hidden .swiper-slide{
+        width:380px!important;
+    }
+    .swiper-button-next{
+        left: calc(50% - -7rem)!important;
+        z-index: 100;
+    }
+    .swiper-button-prev{
+        left: calc(50% - 9rem)!important;
+    }
+    /* .swiper-wrapper{
+        margin-left: -6rem;
+    } */
+    .roadmap-cart-wrapper h3{
+        font-size: 27px;
+        margin-top:10px!important;
+        margin-bottom:18px!important;
+    }
+    .roadmap-cart-wrapper .roadmap-details{
+        font-size: 17px!important;
+    }
+    .roadmap-cart-wrapper .phase-item-wrapper .phase-single-item{
+        font-size: 16px!important;
+    }
+    .roadmap-cart-wrapper .phase-item-wrapper .phase-single-item svg{
+        font-size: 21px;
+    }
+    .accordion-item .accordion-button, .accordion-item .accordion-button.collapsed{
+        font-size: 17px;
+        font-weight: 600;
+    }
+    .leats-start-wrapper h2{
+        font-size: 55px;
+    }
+    .leats-start-btn a{
+        padding:11px 22px;
+    }
+    .footer .footer-top p{
+        font-size: 20px;
+    }
+    .leats-start-shape-wrapper .leats-start-shape-3, .leats-start-shape-wrapper .leats-start-shape-1 {
+        top:10%;
+    }
+    .leats-start-shape-wrapper .leats-start-shape-2 {
+        left: 9%;
+    }
+    .leats-start-shape-wrapper .leats-start-shape-4 {
+        right: 9%;
+    }
+    .tocenomics-details-wrapper h2{
+        font-size: 30px;
+    }
+    .tocenomics-details-wrapper{
+        margin-left:1rem;
+    }
+    .tocenomics-section-wrapper{
+        margin-top:2rem;
+    }
+}

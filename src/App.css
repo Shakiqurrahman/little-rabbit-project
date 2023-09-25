@@ -1,0 +1,824 @@
+@font-face {
+  font-family: headingFont;
+  src: url("./Fonts/PowerGrotesk.ttf");
+}
+@font-face {
+  font-family: primaryFont;
+  src: url("./Fonts/MabryPro-Regular.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: primaryFont;
+  scroll-behavior: smooth;
+}
+:root {
+  --primary-color: #000;
+  --text-color: #b7b4bb;
+  --white: #fff;
+}
+body {
+  background-color: rgb(15, 5, 29);
+  color: var(--white);
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: headingFont;
+}
+
+/*--------------------------- HOME PAGE HEADER SECTION CSS ----------------------- */
+/* .header{
+  background-image: url('./assets/gradient_bg01.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(15, 5, 29)
+} */
+/* .header-bg{
+  background-color: rgb(15, 5, 29, 0.9);
+} */
+/*############ NAVIGATION SECTION ############## */
+
+.home-header-wrapper {
+  position: relative;
+  /* padding-left:0; */
+}
+
+.logo {
+  width: 11rem;
+}
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end;
+}
+.nav-bg{
+  position: fixed;
+  width:100%;
+  top:0;
+  background-color: rgba(12, 3, 25, 0.9);
+  border-bottom: 1px solid #ddd;
+  padding:.2rem;
+  border-bottom: 1px solid #dddddd3d;
+  z-index: 10;
+  transition: .3s;
+  left:0;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 16px 11px;
+  display: block;
+  line-height: 1;
+  position: relative;
+  z-index: 1;
+  color: var(--white);
+  letter-spacing: 1px;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+  opacity: .5;
+  transition: .3s;
+}
+.icon-contact-wrapper {
+  margin-left: 40px;
+  align-items: center;
+}
+
+.icon-contact-wrapper .nav-icon a{
+  color: #fff;
+  transition: .5s;
+}
+
+.icon-contact-wrapper .nav-icon a:hover {
+  color: #0d6efd;
+}
+.icon-contact-wrapper .nav-icon svg {
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 1rem;
+}
+.connect-wrapper a {
+  background: transparent;
+  position: relative;
+  border: 2px solid rgba(255, 255, 255, 0.15);
+  color: var(--white);
+  padding: 8px 24px;
+  z-index: 1;
+  border-radius: 5rem;
+  position: relative;
+}
+.connect-wrapper a:hover::after {
+  content: "";
+  position: absolute;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -o-border-radius: 50px;
+  -ms-border-radius: 50px;
+  border-radius: 50px;
+  left: -2px;
+  top: -2px;
+  right: -2px;
+  bottom: -2px;
+  z-index: -1;
+  transition: 0.3s ease;
+  background-color: #741ff5;
+  background-image: linear-gradient(25deg, #2600fc, #ff00ea);
+}
+
+/* HEADER LEFT PART CSS  */
+
+.header-left-shape-1 {
+  width: 2.5rem;
+  top: 20%;
+  left: 20%;
+}
+.header-left-shape-2 {
+  width: 1.5rem;
+  top: 90%;
+  left: 10%;
+}
+.header-left-shape-3 {
+  width: 3rem;
+  bottom: 10%;
+  left: 40%;
+}
+.header-left-shape-4 {
+  width: 2rem;
+  top: 32%;
+  right: 12%;
+}
+.header-left-shape-wrapper img {
+  position: absolute;
+}
+
+.header-left-part-wrapper {
+  padding: 6.5rem 0;
+}
+.header-left-part-wrapper h2 {
+  font-size: 68px;
+  line-height: 1;
+  font-family: headingFont;
+  margin: 0 0 23px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+.header-left-part-wrapper p {
+  font-size: 24px;
+  line-height: 1.5;
+  max-width: 75%;
+  margin: 0 0 36px;
+}
+.header-left-part-wrapper a,
+.artworks-wrapper .artworks-btn .btn {
+  user-select: none;
+  -moz-user-select: none;
+  border: none;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -o-border-radius: 50px;
+  -ms-border-radius: 50px;
+  border-radius: 50px;
+  color: var(--white);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1.2;
+  margin-bottom: 0;
+  padding: 16px 24px;
+  text-align: center;
+  text-transform: inherit;
+  touch-action: manipulation;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+  letter-spacing: 1px;
+}
+.header-left-part-wrapper a svg,
+.artworks-btn svg {
+  margin-left: 0.65rem;
+  font-size: 20px;
+}
+.gradient-btn::after,
+.artworks-wrapper .artworks-btn .btn::after  {
+  content: "";
+  position: absolute;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -o-border-radius: 50px;
+  -ms-border-radius: 50px;
+  border-radius: 50px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transition: 0.3s ease;
+  background-color: #741ff5;
+  background-image: linear-gradient(25deg, #2600fc, #ff00ea);
+}
+.gradient-btn:hover,
+.artworks-btn .btn:hover {
+  color: var(--white);
+  background-color: #741ff5;
+  background-image: linear-gradient(25deg, #2600fc, #e348ff);
+  transition: 0.3s;
+}
+.gradient-btn:hover::after,
+.artworks-btn .btn:hover::after
+ {
+  opacity: 0.85;
+}
+
+/* HEADER RIGHT PART CSS  */
+.header-image-benner {
+  padding-top: 6.5rem;
+  position: relative;
+}
+.shape-1 {
+  position: absolute;
+  top: 0%;
+  z-index: -1;
+}
+.shape-2 {
+  position: absolute;
+  top: 12%;
+  right: 5%;
+  z-index: -1;
+  opacity: 0.1;
+  width: 50%;
+}
+
+.main-header-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 24px;
+}
+.header-right-image {
+  margin-top: 4.5rem;
+  margin-bottom: 80px;
+}
+
+/*----------------- ListedItem SECTION CSS -------------- */
+.powerd-by-div-wrapper {
+  padding-top: 4rem;
+}
+.powerd-by-div-wrapper .powerd-by-title {
+  color: var(--text-color);
+  font-size: 14px;
+  font-weight: 700;
+}
+.powerd-by-item-wrapper {
+  margin-top: 1.5rem;
+}
+.powerd-by-item-wrapper a img {
+  width: 10rem;
+}
+.powerd-by-item-wrapper .d-flex {
+  justify-content: space-around;
+  /* gap:2.5rem; */
+  align-items: center;
+}
+.line-svg {
+  display: flex;
+  justify-content: center;
+  margin: 7rem 0;
+}
+.line-svg img {
+  width: 5rem;
+  display: inline-block;
+}
+
+/*------------------- HOW TO MINT SECTION CSS -------------------- */
+.how-to-mint-wrapper {
+  position: relative;
+}
+.shape-wrapper-mint img {
+  position: absolute;
+}
+.shape-wrapper-mint .mint-shape-1 {
+  width: 1rem;
+  top: 5%;
+  left: 15%;
+}
+.shape-wrapper-mint .mint-shape-2 {
+  width: 2rem;
+  top: 70%;
+  left: 5%;
+}
+.shape-wrapper-mint .mint-shape-3 {
+  width: 1.5rem;
+  top: 70%;
+  right: 5%;
+}
+
+.mint-title h2 {
+  font-size: 64px;
+  line-height: 1;
+  margin: 0 0;
+  font-family: headingFont;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin-bottom: 3rem;
+}
+.mint-main-section-wrapper {
+  padding: 0rem 3.5rem;
+}
+.mint-main-section-wrapper .mint-single-item-wrapper {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  background: rgba(255, 255, 255, 0.05);
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -o-border-radius: 24px;
+  -ms-border-radius: 24px;
+  border-radius: 24px;
+  padding: 48px 25px;
+  box-shadow: 0 3px 8px -1px rgba(0, 0, 0, 0.08);
+  margin-bottom: 32px;
+}
+.mint-main-section-wrapper .mint-single-item-wrapper img {
+  max-width: 72px;
+}
+.mint-img {
+  margin-right: 45px;
+}
+.mint-main-section-wrapper
+  .mint-single-item-wrapper
+  .mint-single-item-details
+  h3 {
+  font-size: 28px;
+  line-height: 1.1;
+  margin: 0 0 20px;
+  font-family: headingFont;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.mint-main-section-wrapper
+  .mint-single-item-wrapper
+  .mint-single-item-details
+  p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0 0;
+  color: var(--text-color);
+}
+
+
+
+/* ------------------------- TOCENOMISCS SECTION CSS ---------------- */
+.tocenomics-details-wrapper{
+  margin-left:3rem;
+}
+.tocenomics-section-wrapper{
+  margin-top:5rem;
+}
+.tocenomics-details-wrapper h2{
+  font-weight: 800;
+  font-size: 40px;
+  letter-spacing: 1px;
+  margin-top:2.5rem;
+}
+.tocenomics-details-wrapper .token-list{
+  margin-top:2rem;
+}
+.tocenomics-details-wrapper .token-list .token-list-item{
+  display: flex;
+  align-items: center;
+  margin-top:1rem;
+}
+.token-list-item span:first-child{
+  width:1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  display: inline-block;
+}
+.token-list-item span:last-child{
+  font-size: 19px;
+  color:var(--text-color);
+  margin-left: .6rem;
+}
+
+
+
+
+
+
+
+
+
+/* ----------------------------CONNECT SECTION CSS -------------------- */
+
+.connect-wrapper {
+  position: relative;
+}
+.connect-shape-wrapper img {
+  position: absolute;
+}
+.connect-shape-wrapper .connect-shape-1 {
+  top: -12%;
+  right: 25%;
+  width: 1.5rem;
+}
+.connect-shape-wrapper .connect-shape-2 {
+  bottom: 12%;
+  left: 25%;
+  width: 2rem;
+}
+
+.connect-title-para h2 {
+  font-size: 65px;
+  line-height: 1;
+  margin: 0 0 23px;
+  font-family: headingFont;
+  font-weight: 800;
+  letter-spacing: 4px;
+  background-color: #2600fc;
+  background-image: linear-gradient(25deg, #2600fc, #ff00ea);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.connect-title-para p {
+  display: block;
+  font-size: 18px;
+  line-height: 1.7;
+  color: var(--text-color);
+}
+
+/* ------------------- ABOUT SECTION CSS ---------------------- */
+.about-main-section {
+  padding: 3rem 0;
+}
+.about-details-wrapper {
+  padding-left: 3rem;
+}
+.about-details-wrapper .about-title-short,
+.short-title {
+  font-weight: 700;
+  margin: 0 0 10px;
+  background-color: #2600fc;
+  background-image: linear-gradient(25deg, #2600fc, #ff00ea);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+}
+.about-details-wrapper .about-details {
+  color: var(--text-color);
+  font-size: 20px;
+  line-height: 1.5;
+}
+.about-details-wrapper h2 {
+  font-size: 64px;
+  line-height: 1.1;
+  margin: 0 0;
+  font-family: headingFont;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin: 1.3rem 0;
+}
+.about-contact {
+  padding-left: 1rem;
+}
+.about-contact .about-contact-left {
+  padding-right: 2rem;
+  cursor: pointer;
+}
+
+.about-contact .about-contact-right {
+  padding-left: 1rem;
+  cursor: pointer;
+}
+.about-contact h3 {
+  font-size: 52px;
+  line-height: 1.1;
+  margin: 0 0;
+  font-family: headingFont;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin: 1.3rem 0;
+}
+.about-contact p {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* ------------------- Owner SECTION CSS ---------------------- */
+
+.owner-wrapper .owner-details h2 {
+  font-size: 64px;
+  line-height: 1;
+  font-family: headingFont;
+  font-weight: 800;
+  letter-spacing: 3px;
+  margin: 1.3rem 0;
+}
+
+.owner-wrapper .owner-details p {
+  font-size: 20px;
+}
+
+/* ------------------- Artworks SECTION CSS ---------------------- */
+
+.artworks-wrapper .cards {
+  border-radius: 0px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.artworks-wrapper .card {
+  width: 260px;
+  background-color: #fffeff0d;
+  color: #fff;
+  padding: 16px;
+  border-radius: 24px;
+  box-shadow: 0 3px 8px -1px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.artworks-wrapper .card:nth-child(2n+1) {
+  position: relative;
+  top: 30px;
+}
+
+.artworks-wrapper .card img {
+  border-radius: 16px;
+}
+
+.artworks-wrapper .card h3 {
+  font-family: headingFont;
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  margin-top: 10px;
+}
+
+.artworks-wrapper .card p {
+  margin: 4px 0 0;
+  font-size: 16px;
+  color: var(--text-color);
+}
+
+.artworks-wrapper .card p a {
+  color: var(--text-color);
+  text-decoration: none;
+  transition: .3s;
+}
+
+.artworks-wrapper .card p a:hover {
+  color: #e348ff;
+}
+
+
+.artworks-wrapper .artworks-btn {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+  /*---------------- ASK QUESTION SECTION CSS ---------------- */
+
+.ask-question-item-wrapper{
+  margin:0rem 8rem;
+  margin-top:5rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding:3rem;
+  padding-top:2.1rem;
+  border-radius: 32px;
+}
+.accordion{
+  --bs-accordion-bg: rgba(255, 255, 255, 0.0);
+  border-radius: 32px;
+}
+
+.accordion-button:not(.collapsed){
+  background-color: transparent;
+  box-shadow: none;
+}
+.accordion-item .accordion-button, .accordion-item .accordion-button.collapsed{
+  color:#fff;
+  font-family: headingFont;
+  font-weight: 600;
+  font-size: 21px;
+  letter-spacing: 2px;
+  padding-left:0;
+  padding-right:0;
+}
+.accordion-item{
+  border-color: rgba(131, 131, 131, 0.25) ;
+}
+.accordion-item .accordion-header button{
+  box-shadow: none;
+}
+.accordion-body{
+  font-size: 20px;
+  line-height: 1.5;
+  color: var(--text-color);
+  padding-left:0;
+}
+.accordion-button:not(.collapsed)::after{
+  background-image: url('./assets/up.svg');
+  width:1.5rem;
+  height:1.5rem;
+  background-size: cover;
+}
+.accordion-button::after{
+  background-image: url('./assets/down.svg');
+  width:1.5rem;
+  height:1.5rem;
+  background-size: cover;
+}
+.ask-question-wrapper .line-svg{
+  margin-bottom:1rem;
+}
+
+  /*-------------------------- LEATS START SECTION CSS ---------------- */
+  
+  .leats-start-wrapper{
+    background-color: rgb(15, 5, 29, .9) ;
+    padding:9rem 0;
+    position: relative;
+    margin-bottom:3rem;
+  }
+  .leats-start-shape-wrapper img{
+    position: absolute;
+  }
+  .leats-start-shape-wrapper .leats-start-shape-1{
+    left:20%;
+    top:20%;
+  }
+  .leats-start-shape-wrapper .leats-start-shape-2{
+    left:25%;
+    bottom:20%;
+    width:2.5rem;
+  }
+  .leats-start-shape-wrapper .leats-start-shape-3{
+    right:25%;
+    top:20%;
+    width:2.5rem;
+  }
+  .leats-start-shape-wrapper .leats-start-shape-4{
+    right:25%;
+    bottom:20%;
+    width:1.5rem;
+  }
+  .leats-start-section{
+    
+    background-image: url('./assets/collection_cta.png');
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; */
+  }
+  .leats-start-wrapper h2{
+  font-size: 96px;
+  letter-spacing: 6px;
+  font-weight: 900;
+}
+.leats-start-wrapper .artworks-wrapper .artworks-btn{
+  margin-top:2.6rem;
+}
+.leats-start-btn a{
+  font-size: 18px;
+    padding: 18px 40px;
+    background-color: #2600fc;
+  background-image: linear-gradient(25deg, #0d6efd, #ff00ea);
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -o-border-radius: 50px;
+  -ms-border-radius: 50px;
+  border-radius: 50px;
+  color:#fff;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  margin-top:3rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+    /* position: relative;
+    position: absolute; */
+}
+.leats-start-btn a::after{
+  content: "";
+  position: absolute;
+  
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transition: 0.3s ease;
+  background-color: #2600fc;
+  background-image: linear-gradient(25deg, #0d6efd, #ff00ea);
+}
+.owner-wrapper .owner-details p{
+  color:var(--text-color)
+}
+
+
+/* ------------------- Footer SECTION CSS ---------------------- */
+.footer .footer-top{
+  margin-bottom: 120px;
+}
+
+.footer .footer-top p{
+  text-align: center;
+  width: 480px;
+  font-size: 25px;
+  line-height: 1.5;
+  margin: 30px 0;
+}
+
+.footer .footer-top .icons a{
+  font-size: 26px;
+  color: #b7b4bb;
+  transition: .3s linear;
+  margin-right: 30px;
+}
+
+.footer .footer-top .icons a:hover {
+  color: #fff;
+}
+
+.copyright-wrapper {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgba(131, 131, 131, 0.25);
+  padding-top: 30px;
+}
+
+.copyright-wrapper .left-side p {
+  color: #b7b4bb;
+  font-size: 16px;
+}
+
+.copyright-wrapper .right-side p{
+  font-size: 16px;
+  margin-right: 25px;
+  color: #b7b4bb;
+  cursor: pointer;
+  transition: .3s linear;
+}
+
+.copyright-wrapper .right-side a {
+  position: relative;
+  top: -10px;
+  color: #b7b4bb;
+  transition: .3s linear;
+}
+
+.copyright-wrapper .right-side p:hover,
+.copyright-wrapper .right-side a:hover {
+  color: #fff;
+}
+
+
+@media (width <= 576px) {
+  .mint-title h2 {
+    font-size: 40px;
+  }
+
+  .owner-wrapper .owner-details h2{
+    font-size: 35px;
+  }
+
+  .owner-wrapper .owner-details p {
+    font-size: 18px;
+  }
+
+  .artworks-wrapper .card {
+    width: 85%;
+  }
+
+  .artworks-wrapper .card:nth-child(2n+1) {
+    top: 0;
+  }
+
+  .footer .footer-top {
+    margin-bottom: 60px;
+  }
+
+  .footer .footer-top p {
+    width: 85%;
+  }
+
+  .copyright-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .shape-wrapper .shape1 {
+    top: 50% !important;
+  }
+}

@@ -1,0 +1,140 @@
+
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    
+    padding:32px;
+  border-radius: 32px;
+  background-color: rgba(255, 255, 255, 0.05);
+  }
+
+.roadmap-cart-wrapper{
+  
+}
+.r-cart-top .d-flex{
+  justify-content: space-between;
+}
+.r-cart-top .d-flex p{
+  font-weight: 700;
+    margin: 0 0 10px;
+    background-color: #2600fc;
+    background-image: linear-gradient(25deg, #2600fc, #ff00ea);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.r-cart-top .d-flex .roadmap-percent{
+    width: 50px;
+    height: 50px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 2px;
+    line-height: 0.9;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transform: rotate(16deg);
+    -moz-transform: rotate(16deg);
+    -ms-transform: rotate(16deg);
+    -o-transform: rotate(16deg);
+    transform: rotate(16deg);
+    background-color: #2600fc;
+    background-image: linear-gradient(25deg,#2600fc, #ff00ea);
+    color: #fff;
+    font-weight: 700;
+    margin-top:-.9rem;
+    margin-right:-.7rem;
+}
+.r-cart-top .d-flex .roadmap-percent span{
+  display: block;
+}
+.roadmap-cart-wrapper h3{
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 32px;
+  line-height: 1;
+  margin:10px 0 32px
+}
+.roadmap-cart-wrapper .roadmap-details{
+  font-size: 20px;
+  line-height: 1.45;
+  color:#B7B4BB;
+  padding-bottom:2rem;
+  margin-bottom:2rem;
+  position: relative;
+}
+.roadmap-cart-wrapper .roadmap-details::after{
+  position: absolute;
+  content: '';
+  width:5rem;
+  height: 1px;
+  background-color: #b7b4bb32;
+  bottom:0;
+  left:0
+}
+.roadmap-cart-wrapper .phase-item-wrapper .phase-single-item{
+  font-size: 18px;
+  color:#fff;
+  align-items: center;
+  line-height: 2;
+}
+#gradient-vertical {
+  --color-stop-1: #00c3ff;
+  --color-stop-2: #77e190;
+  --color-stop-3: #ffff1c;
+}
+.roadmap-cart-wrapper .phase-item-wrapper .phase-single-item svg{
+  font-size: 24px;
+  background-color: #2600fc;
+  background-image: linear-gradient(25deg, #2600fc , #ff00ea);
+  background-clip: text;
+  -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-right:8px;
+    color:#c50cb6
+}
+.swiper-button-next{
+  background-color: #0F051D;
+  border: 1px solid rgb(183, 180, 187, .4);
+  width:2rem;
+  height: 2rem;
+  border-radius: 50%;
+  left: calc(50% - -10rem);
+}
+.swiper-button-prev{
+  background-color: #0F051D;
+  border: 1px solid rgb(183, 180, 187, .4);
+  width:2rem;
+  height: 2rem;
+  border-radius: 50%;
+  left: calc(50% - 12rem);
+}
+.swiper-button-next::after{
+  font-size: 1.2rem;
+  font-weight: 800;
+  color:#B7B4BB
+}
+.swiper-button-prev::after{
+  font-size: 1.2rem;
+  font-weight: 800;
+  color:#B7B4BB
+}
+.swiper-backface-hidden .swiper-slide{
+  width:300px!important;
+}
+
+
